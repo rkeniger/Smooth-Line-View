@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/rkeniger/Smooth-Line-View"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = 'Levi Nunnink'
-  s.source       = { :git => "https://github.com/rkeniger/Smooth-Line-View.git"}
+  s.source       = { :git => "https://github.com/rkeniger/Smooth-Line-View.git", :tag => '0.1'}
   s.platform     = :ios, '7.0'
   s.source_files = 'Smooth Line View/SmoothLineView.{h,m}'
   s.framework    = 'QuartzCore'
